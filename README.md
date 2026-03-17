@@ -10,7 +10,7 @@ The system is designed to be simple, responsive, and fully self-contained — no
 
 ### 📸 Project Images
 
-<img src="images/1.jpeg" width="400">
+<img src="images/1.jpeg" width="335"> <img src="images/3.jpeg" width="190"> <img src="images/5.jpeg" width="370"> 
 
 ## 🎥 Demo Video
 
@@ -35,6 +35,7 @@ The system is designed to be simple, responsive, and fully self-contained — no
 - 🎚️ Adjustable motor speeds (PWM control)
 - 🛑 Independent and full stop functions
 - ⚙️ Lightweight and easy to modify
+<img src="images/6.jpeg" width="100">
 
 ---
 
@@ -46,17 +47,19 @@ The system is designed to be simple, responsive, and fully self-contained — no
 - Battery pack
 - Waterproof enclosure
 
+<img src="images/4.jpeg" width="200">
+
 ---
 
 ### 🔌 Wiring
 
-ESP32 Pin    	Motor Driver
-33       -   	ENA
-25	     -    IN1
-26	     -    IN2
-32	     -    ENB
-27	     -    IN3
-14	     -    IN4
+ESP32 Pin to Motor Driver
+33-ENA,
+25-IN1,
+26-IN2,
+32-ENB,
+27-IN3,
+14-IN4
 
 ---
 
@@ -70,6 +73,11 @@ ESP32 Pin    	Motor Driver
 - Open your browser and go to:
   http://192.168.4.1
 - Use the interface to control the submarine
+
+## 💻 Code
+
+Main ESP32 Code:  
+[View Code](code/main.ino)
 
 ---
 
