@@ -8,6 +8,16 @@ The system is designed to be simple, responsive, and fully self-contained — no
 
 ---
 
+### 📸 Project Images
+
+<img src="images/1.jpeg" width="400">
+
+## 🎥 Demo Video
+
+[▶️ Watch Demo](2.mp4)
+
+---
+
 ### 🧠 How It Works
 
 - The ESP32 acts as a WiFi Access Point
