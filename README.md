@@ -41,12 +41,12 @@ The system is designed to be simple, responsive, and fully self-contained — no
 ### 🔌 Wiring
 
 ESP32 Pin    	Motor Driver
-33          	ENA
-25	          IN1
-26	          IN2
-32	          ENB
-27	          IN3
-14	          IN4
+33       -   	ENA
+25	     -    IN1
+26	     -    IN2
+32	     -    ENB
+27	     -    IN3
+14	     -    IN4
 
 ---
 
