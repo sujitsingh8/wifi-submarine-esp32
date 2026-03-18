@@ -6,6 +6,8 @@ It creates its own wireless access point and hosts a web interface that allows r
 
 The system is designed to be simple, responsive, and fully self-contained — no external app or internet connection required.
 
+📄[More Details](https://docs.google.com/document/d/1dMBapOunCNPHPyeme9RsVmfH8Jrq_Jmw2p2Hg2--TW8/edit?usp=sharing)
+
 ---
 
 ### 📸 Project Images
@@ -14,7 +16,7 @@ The system is designed to be simple, responsive, and fully self-contained — no
 
 ## 🎥 Demo Video
 
-[▶️ Watch Demo](2.mp4)
+[▶️ Watch Demo](https://drive.google.com/file/u/0/d/1AdxfbcWzc84nZk6MJlSGAFVxDyX596sU/view?usp=drivesdk&pli=1)
 
 ---
 
@@ -60,6 +62,8 @@ ESP32 Pin to Motor Driver
 32-ENB,
 27-IN3,
 14-IN4
+
+📄[Circuit Diagram & Connections](circuit.md)
 
 ---
 
