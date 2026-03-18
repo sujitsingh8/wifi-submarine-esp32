@@ -10,7 +10,9 @@
 
 ### 🔌 Circuit Diagram
 
-
+<p align="left">
+  <img src="images/7.jpeg" width="500"/>
+</p>
 
 ### ⚡ Power Connections
 
