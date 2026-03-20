@@ -82,30 +82,3 @@ ESP32 Pin to Motor Driver
 
 Main ESP32 Code:  
 [View Code](code/main.ino)
-
----
-
-### 🧪 Use Cases
-
-- DIY underwater vehicles
-- Robotics experiments
-- Remote-controlled vehicles
-- Educational projects (IoT + embedded systems)
-
----
-
-### 🚧 Limitations
-
-- Uses basic HTTP (no real-time streaming)
-- No feedback sensors (depth, orientation, etc.)
-- PWM via `analogWrite()` (can be improved with ESP32 LEDC)
-
----
-
-### 🔮 Future Improvements
-
-- WebSocket-based real-time control
-- Camera streaming (ESP32-CAM)
-- Depth/pressure sensor integration
-- Battery monitoring system
-- Waterproof enclosure design
