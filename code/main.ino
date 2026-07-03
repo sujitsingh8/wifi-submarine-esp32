@@ -35,7 +35,7 @@ Serial.println(WiFi.softAPIP());
 }
 
 
-// -------- MOTOR FUNCTIONS --------
+// MOTOR FUNCTIONS
 
 void forward()
 {
@@ -66,7 +66,7 @@ digitalWrite(IN4,HIGH);
 }
 
 
-// -------- STOP FUNCTIONS --------
+// STOP FUNCTIONS
 
 void stopA()
 {
@@ -89,7 +89,7 @@ stopB();
 }
 
 
-// -------- LOOP --------
+// LOOP
 
 void loop()
 {
@@ -135,7 +135,7 @@ if(speedB < 0) speedB = 0;
 }
 
 
-// -------- WEB PAGE --------
+// WEB PAGE
 
 client.println("HTTP/1.1 200 OK");
 client.println("Content-type:text/html");
