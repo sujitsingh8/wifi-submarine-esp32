@@ -1,4 +1,4 @@
-## 🚤 ESP32 WiFi Submarine Controller
+## ESP32 WiFi Submarine Controller
 A self-contained WiFi-controlled underwater vehicle powered by ESP32, featuring a real-time web control interface and dual-motor propulsion.
 
 This project is a WiFi-controlled submarine (or underwater rover) powered by an ESP32.  
@@ -6,21 +6,21 @@ It creates its own wireless access point and hosts a web interface that allows r
 
 The system is designed to be simple, responsive, and fully self-contained — no external app or internet connection required.
 
-📄[More Details](https://docs.google.com/document/d/1dMBapOunCNPHPyeme9RsVmfH8Jrq_Jmw2p2Hg2--TW8/edit?usp=sharing)
+[More Details](https://docs.google.com/document/d/1dMBapOunCNPHPyeme9RsVmfH8Jrq_Jmw2p2Hg2--TW8/edit?usp=sharing)
 
 ---
 
-### 📸 Project Images
+### Project Images
 
 <img src="images/1.jpeg" width="335"> <img src="images/3.jpeg" width="190"> <img src="images/5.jpeg" width="370"> 
 
-## 🎥 Demo Video
+## Demo Video
 
-[▶️ Watch Demo](https://drive.google.com/file/u/0/d/1AdxfbcWzc84nZk6MJlSGAFVxDyX596sU/view?usp=drivesdk&pli=1)
+[Watch Demo](https://drive.google.com/file/u/0/d/1AdxfbcWzc84nZk6MJlSGAFVxDyX596sU/view?usp=drivesdk&pli=1)
 
 ---
 
-### 🧠 How It Works
+### How It Works
 
 - The ESP32 acts as a WiFi Access Point
 - A built-in web server serves a control dashboard
@@ -29,19 +29,19 @@ The system is designed to be simple, responsive, and fully self-contained — no
 
 ---
 
-### ⚡ Key Features
+### Key Features
 
-- 📡 Standalone WiFi control (no router needed)
-- 🎮 Web-based control interface (phone/PC compatible)
-- 🔁 Forward, backward, left, right movement
-- 🎚️ Adjustable motor speeds (PWM control)
-- 🛑 Independent and full stop functions
-- ⚙️ Lightweight and easy to modify
+- Standalone WiFi control (no router needed)
+- Web-based control interface (phone/PC compatible)
+- Forward, backward, left, right movement
+- Adjustable motor speeds (PWM control)
+- Independent and full stop functions
+- Lightweight and easy to modify
 <img src="images/6.jpeg" width="100">
 
 ---
 
-### 🔌 Hardware Required
+### Hardware Required
 
 - ESP32
 - L298N (or similar motor driver)
@@ -53,7 +53,7 @@ The system is designed to be simple, responsive, and fully self-contained — no
 
 ---
 
-### 🔌 Wiring
+### Wiring
 
 ESP32 Pin to Motor Driver
 33-ENA,
@@ -63,11 +63,11 @@ ESP32 Pin to Motor Driver
 27-IN3,
 14-IN4
 
-📄[Circuit Diagram & Connections](circuit.md)
+[Circuit Diagram & Connections](circuit.md)
 
 ---
 
-### 🚀 Getting Started
+### Getting Started
 
 - Upload the code to your ESP32
 - Power the board
@@ -78,7 +78,7 @@ ESP32 Pin to Motor Driver
   http://192.168.4.1
 - Use the interface to control the submarine
 
-## 💻 Code
+## Code
 
 Main ESP32 Code:  
 [View Code](code/main.ino)
